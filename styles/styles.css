@@ -43,7 +43,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin: 0;
         width: 100%;
         max-width: 100%;
-        min-width: 331px;
+        min-width: 350px;
     }
 }
 
@@ -868,6 +868,43 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .moment {
         display: flex;
         flex-direction: column;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
+
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     .titre-page-section {
@@ -897,6 +934,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: white;
         transition: width 0.9s, border-top-right-radius 0s, border-bottom-right-radius 0s;
+        z-index: 2;
     }
 
     .titre-carte-page {
@@ -927,6 +965,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         align-items: flex-start;
         height: 82px;
         margin-bottom: 2%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
     }
 
     .valid {
@@ -938,12 +981,13 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         justify-content: space-evenly;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
+        z-index: 1;
     }
 
     .icon_valid {
         color: white;
         rotate: 0deg;
-        transition: all 0.9s ease-in-out, margin-right 0.2s; 
+        transition: all 0.9s ease-in-out, margin-right 0.5s;
         line-height: 30px;
         margin-right: 50px;
         font-size: 50px;
@@ -1055,6 +1099,43 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .moment {
         display: flex;
         flex-direction: column;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
+
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     .titre-page-section {
@@ -1084,6 +1165,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: white;
         transition: width 0.9s, border-top-right-radius 0s, border-bottom-right-radius 0s;
+        z-index: 2;
     }
 
     .titre-carte-page {
@@ -1114,6 +1196,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         align-items: flex-start;
         height: 82px;
         margin-bottom: 2%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
     }
 
     .valid {
@@ -1125,6 +1212,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         justify-content: space-evenly;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
+        z-index: 1;
     }
 
     .icon_valid {
@@ -1239,6 +1327,43 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .moment {
         display: flex;
         flex-direction: column;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+    }
+
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
     }
 
     .titre-page-section {
@@ -1268,6 +1393,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: white;
         transition: width 0.9s, border-top-right-radius 0s, border-bottom-right-radius 0s;
+        z-index: 2;
     }
 
     .titre-carte-page {
@@ -1298,6 +1424,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         align-items: flex-start;
         height: 82px;
         margin-bottom: 2%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
     }
 
     .valid {
@@ -1309,6 +1440,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         justify-content: space-evenly;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
+        z-index: 1;
     }
 
     .icon_valid {
