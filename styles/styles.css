@@ -437,8 +437,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 @media (max-width: 767px) {
 
     .load-spinner {
-        margin-top: 30%;
-        margin-left: 35%;
+        margin-top: 50%;
+        margin-left: 38%;
         border: 16px solid transparent;
         width: 120px;
         height: 120px;
@@ -576,6 +576,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         -webkit-animation: fadein 3s; /* Safari et Chrome */
         -o-animation: fadein 3s; /* Opera */
         z-index: 1;
+        min-width: 370px;
     }
 
     @keyframes fadein {
@@ -1214,7 +1215,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     
     .cartes-r {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 95%;
         max-width: 95%;
         margin-left: auto;
@@ -1226,6 +1228,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 15px;
         margin-bottom: 4%;
+        width: 330px;
+        margin-right: 25px;
     }
 
     .img-carte-r {
@@ -1287,8 +1291,18 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
    }
 
     .new {
-        display: none;
+        font-size: 13px;
+        background-color: #99E2D0;
+        width: 76px;
+        padding-left: 12px;
+        height: 37px;
+        padding-top: 0;
+        border-radius: 3px;
+        position: absolute;
+        margin-left: 242px;
+        margin-top: 11px;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1302,7 +1316,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     
     .cartes-r {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 95%;
         max-width: 95%;
         margin-left: auto;
@@ -1314,6 +1329,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 15px;
         margin-bottom: 4%;
+        width: 330px;
+        margin-right: 25px;
     }
 
     .img-carte-r {
@@ -1375,8 +1392,18 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
    }
 
     .new {
-        display: none;
+        font-size: 13px;
+        background-color: #99E2D0;
+        width: 76px;
+        padding-left: 12px;
+        height: 37px;
+        padding-top: 0;
+        border-radius: 3px;
+        position: absolute;
+        margin-left: 242px;
+        margin-top: 11px;
     }
+
 }
 
 @media (max-width: 767px) {
@@ -1391,6 +1418,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .cartes-r {
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 95%;
         max-width: 95%;
         margin-left: auto;
@@ -1402,6 +1430,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 15px;
         margin-bottom: 4%;
+        width: 330px;
+        min-width: 330px;
     }
 
     .img-carte-r {
@@ -1463,8 +1493,18 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
    }
 
     .new {
-        display: none;
+        font-size: 13px;
+        background-color: #99E2D0;
+        width: 76px;
+        padding-left: 12px;
+        height: 37px;
+        padding-top: 0;
+        border-radius: 3px;
+        position: absolute;
+        margin-left: 242px;
+        margin-top: 11px;
     }
+
 }
 
 
@@ -1631,7 +1671,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .carte-section {
         width: 100%;
-        height: 80px;
+        height: 68px;
         border: solid 1px transparent;
         display: flex;
         flex-wrap: wrap;
@@ -1642,22 +1682,26 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: white;
         transition: width 0.9s, border-top-right-radius 0s, border-bottom-right-radius 0s;
-        z-index: 2;
     }
 
     .titre-carte-page {
         width: 100%;
         font-size: 14px;
-        height: 27px;
+        height: 31px;
         font-weight: bold;
         padding-left: 7px;
-
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .specification {
         width: 85%;
         font-size: 13px;
         padding-left: 7px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .prix {
@@ -1685,23 +1729,22 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         background-color: #99E2D0;
         width: 0%;
         transition: width 0.9s;
-        height: 80px;
+        height: 68px;
         justify-content: space-evenly;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        z-index: 1;
         overflow: hidden;
     }
 
     .icon_valid {
         color: white;
         rotate: 0deg;
-        transition: all 0.9s ease-in-out, margin-right 0.5s;
-        line-height: 30px;
-        margin-right: 50px;
-        font-size: 50px;
-        height: 50px;
-        margin-top: 15px;
+        transition: all 0.9s ease-in-out, margin-right 0.2s; 
+        line-height: 29px;
+        margin-right: 43px;
+        font-size: 43px;
+        height: 43px;
+        margin-top: 13px;
     }
 
     .supra-carte-section:hover .carte-section {
@@ -1905,7 +1948,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .carte-section {
         width: 100%;
-        height: 80px;
+        height: 68px;
         border: solid 1px transparent;
         display: flex;
         flex-wrap: wrap;
@@ -1916,22 +1959,26 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: white;
         transition: width 0.9s, border-top-right-radius 0s, border-bottom-right-radius 0s;
-        z-index: 2;
     }
 
     .titre-carte-page {
         width: 100%;
         font-size: 14px;
-        height: 27px;
+        height: 31px;
         font-weight: bold;
         padding-left: 7px;
-
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .specification {
         width: 85%;
         font-size: 13px;
         padding-left: 7px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .prix {
@@ -1959,11 +2006,10 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         background-color: #99E2D0;
         width: 0%;
         transition: width 0.9s;
-        height: 80px;
+        height: 68px;
         justify-content: space-evenly;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        z-index: 1;
         overflow: hidden;
     }
 
@@ -1971,12 +2017,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         color: white;
         rotate: 0deg;
         transition: all 0.9s ease-in-out, margin-right 0.2s; 
-        line-height: 30px;
-        margin-right: 50px;
-        font-size: 50px;
-        height: 50px;
-        margin-top: 15px;
-
+        line-height: 29px;
+        margin-right: 43px;
+        font-size: 43px;
+        height: 43px;
+        margin-top: 13px;
     }
 
     .supra-carte-section:hover .carte-section {
@@ -2025,6 +2070,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         width: 100%;
         display: flex;
         flex-direction: column;
+        min-width: 370px;
     }
 
     .img-page-r {
@@ -2177,7 +2223,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .carte-section {
         width: 100%;
-        height: 80px;
+        height: 68px;
         border: solid 1px transparent;
         display: flex;
         flex-wrap: wrap;
@@ -2188,22 +2234,26 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: white;
         transition: width 0.9s, border-top-right-radius 0s, border-bottom-right-radius 0s;
-        z-index: 2;
     }
 
     .titre-carte-page {
         width: 100%;
         font-size: 14px;
-        height: 27px;
+        height: 31px;
         font-weight: bold;
         padding-left: 7px;
-
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .specification {
         width: 85%;
         font-size: 13px;
         padding-left: 7px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 
     .prix {
@@ -2231,11 +2281,10 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         background-color: #99E2D0;
         width: 0%;
         transition: width 0.9s;
-        height: 80px;
+        height: 68px;
         justify-content: space-evenly;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        z-index: 1;
         overflow: hidden;
     }
 
@@ -2243,11 +2292,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         color: white;
         rotate: 0deg;
         transition: all 0.9s ease-in-out, margin-right 0.2s; 
-        line-height: 30px;
-        margin-right: 50px;
-        font-size: 50px;
-        height: 50px;
-        margin-top: 15px;
+        line-height: 29px;
+        margin-right: 43px;
+        font-size: 43px;
+        height: 43px;
+        margin-top: 13px;
     }
 
     .supra-carte-section:hover .carte-section {
@@ -2416,6 +2465,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         padding-left: 10px;
         background-color: rgb(43, 40, 40);
         padding-bottom: 40px;
+        min-width: 370px;
     }
 
     .logo-footer {
