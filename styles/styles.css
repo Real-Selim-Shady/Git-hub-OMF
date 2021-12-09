@@ -9,7 +9,7 @@ a, a:hover, a:visited, a:active
 }
 
 a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -762,17 +762,13 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         display: flex;
         align-items: center;
         background-color: #eaeaea;
+        font-weight: bolder;
     }
 
     .logomap {
         padding-left: 10px;
         padding-right: 5%;
     }
-
-    .ville-map {
-
-    }
-
 
 }
 
@@ -781,17 +777,13 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         display: flex;
         align-items: center;
         background-color: #eaeaea;
+        font-weight: bolder;
     }
 
     .logomap {
         padding-left: 10px;
         padding-right: 5%;
     }
-
-    .ville-map {
-
-    }
-
 
 }
 
@@ -800,17 +792,13 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         display: flex;
         align-items: center;
         background-color: #eaeaea;
+        font-weight: bolder;
     }
 
     .logomap {
         padding-left: 25%;
         padding-right: 5%;
     }
-
-    .ville-map {
-
-    }
-
 
 }
 
@@ -848,6 +836,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: 17px;
         margin-bottom: 60px;
         margin-left: 16%;
+        font-weight: bolder;
     }
 
     .cartexplo:hover {
@@ -894,6 +883,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: 17px;
         margin-bottom: 60px;
         margin-left: 16%;
+        font-weight: bolder;
     }
 
     .cartexplo:hover {
@@ -940,6 +930,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: 17px;
         margin-bottom: 60px;
         margin-left: 16%;
+        font-weight: bolder;
     }
 
     .cartexplo:hover {
@@ -1033,6 +1024,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
+        width: 65px;
     }
     
     .content-f {
@@ -1112,6 +1104,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
+        width: 65px;
     }
     
     .content-f {
@@ -1191,6 +1184,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
+        width: 65px;
     }
     
     .content-f {
@@ -1546,10 +1540,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .titre-page-r1 {
         width: 90%;
-        padding-top: 10px;
+        padding-top: 0px;
         font-weight: bolder;
         font-style: italic;
-        font-size: 20px;
+        font-size: 26px;
+        font-family: 'Shrikhand', cursive;
     }
 
     .titre-page-r2flex {
@@ -1659,14 +1654,12 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-bottom: solid 2px #99E2D0;
         width: 41px;
         margin-bottom: 3%;
-    }
-
-    .separateur {
-
+        font-weight: bolder;
     }
 
     .cartes-section {
-
+        display: flex;
+        flex-direction: column;
     }
 
     .carte-section {
@@ -1686,8 +1679,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .titre-carte-page {
         width: 100%;
-        font-size: 14px;
-        height: 31px;
+        font-size: 15px;
+        height: 36px;
         font-weight: bold;
         padding-left: 7px;
         overflow: hidden;
@@ -1697,17 +1690,19 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .specification {
         width: 85%;
-        font-size: 13px;
+        font-size: 14px;
         padding-left: 7px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        margin-top: 3px;
     }
 
     .prix {
         width: 15%;
         font-size: 14px;
         font-weight: bold;
+        margin-top: -9px;
     }
 
     .supra-carte-section {
@@ -1716,7 +1711,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         justify-content: center;
         align-items: flex-start;
         height: 82px;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         animation: fadein 2s;
         -moz-animation: fadein 2s; /* Firefox */
         -webkit-animation: fadein 2s; /* Safari et Chrome */
@@ -1771,6 +1766,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-size: 17px;
         margin-top: 40px;
         margin-bottom: 75px;
+        font-weight: bolder;
     }
 
     .command:hover {
@@ -1821,10 +1817,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .titre-page-r1 {
         width: 90%;
-        padding-top: 10px;
+        padding-top: 0px;
         font-weight: bolder;
         font-style: italic;
-        font-size: 20px;
+        font-size: 26px;
+        font-family: 'Shrikhand', cursive;
     }
 
     .titre-page-r2flex {
@@ -1936,14 +1933,12 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-bottom: solid 2px #99E2D0;
         width: 41px;
         margin-bottom: 3%;
-    }
-
-    .separateur {
-
+        font-weight: bolder;
     }
 
     .cartes-section {
-
+        display: flex;
+        flex-direction: column;
     }
 
     .carte-section {
@@ -1963,8 +1958,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .titre-carte-page {
         width: 100%;
-        font-size: 14px;
-        height: 31px;
+        font-size: 15px;
+        height: 36px;
         font-weight: bold;
         padding-left: 7px;
         overflow: hidden;
@@ -1974,17 +1969,19 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .specification {
         width: 85%;
-        font-size: 13px;
+        font-size: 14px;
         padding-left: 7px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        margin-top: 3px;
     }
 
     .prix {
         width: 15%;
         font-size: 14px;
         font-weight: bold;
+        margin-top: -9px;
     }
 
     .supra-carte-section {
@@ -1993,7 +1990,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         justify-content: center;
         align-items: flex-start;
         height: 82px;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         animation: fadein 2s;
         -moz-animation: fadein 2s; /* Firefox */
         -webkit-animation: fadein 2s; /* Safari et Chrome */
@@ -2048,6 +2045,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-size: 17px;
         margin-top: 40px;
         margin-bottom: 75px;
+        font-weight: bolder;
     }
 
     .command:hover {
@@ -2098,10 +2096,11 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .titre-page-r1 {
         width: 90%;
-        padding-top: 10px;
+        padding-top: 0px;
         font-weight: bolder;
         font-style: italic;
-        font-size: 20px;
+        font-size: 26px;
+        font-family: 'Shrikhand', cursive;
     }
 
     .titre-page-r2flex {
@@ -2211,14 +2210,12 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-bottom: solid 2px #99E2D0;
         width: 41px;
         margin-bottom: 3%;
-    }
-
-    .separateur {
-
+        font-weight: bolder;
     }
 
     .cartes-section {
-
+        display: flex;
+        flex-direction: column;
     }
 
     .carte-section {
@@ -2238,8 +2235,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .titre-carte-page {
         width: 100%;
-        font-size: 14px;
-        height: 31px;
+        font-size: 15px;
+        height: 36px;
         font-weight: bold;
         padding-left: 7px;
         overflow: hidden;
@@ -2249,17 +2246,19 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .specification {
         width: 85%;
-        font-size: 13px;
+        font-size: 14px;
         padding-left: 7px;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        margin-top: 3px;
     }
 
     .prix {
         width: 15%;
         font-size: 14px;
         font-weight: bold;
+        margin-top: -9px;
     }
 
     .supra-carte-section {
@@ -2268,7 +2267,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         justify-content: center;
         align-items: flex-start;
         height: 82px;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         animation: fadein 2s;
         -moz-animation: fadein 2s; /* Firefox */
         -webkit-animation: fadein 2s; /* Safari et Chrome */
@@ -2323,6 +2322,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-size: 17px;
         margin-top: 40px;
         margin-bottom: 75px;
+        font-weight: bolder;
     }
 
     .command:hover {
@@ -2370,7 +2370,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     
     .logo-proposer {
         line-height: 41px;
-        padding-right: 5px;
+        padding-right: 7px;
         color: white;
     }
     
@@ -2385,6 +2385,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .logo-devenir {
         line-height: 41px;
         color: white;
+        padding-right: 7px;
     }
 
     .mention {
@@ -2426,7 +2427,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     
     .logo-proposer {
         line-height: 41px;
-        padding-right: 5px;
+        padding-right: 13px;
         color: white;
     }
     
@@ -2441,6 +2442,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .logo-devenir {
         line-height: 41px;
         color: white;
+        padding-right: 7px;
     }
 
     .mention {
@@ -2483,7 +2485,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     
     .logo-proposer {
         line-height: 41px;
-        padding-right: 5px;
+        padding-right: 13px;
         color: white;
     }
     
@@ -2498,6 +2500,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .logo-devenir {
         line-height: 41px;
         color: white;
+        padding-right: 7px;
     }
 
     .mention {
