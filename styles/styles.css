@@ -767,7 +767,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .logomap {
         padding-left: 10px;
-        padding-right: 5%;
+        padding-right: 1%;
     }
 
 }
@@ -782,7 +782,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .logomap {
         padding-left: 10px;
-        padding-right: 5%;
+        padding-right: 1%;
     }
 
 }
@@ -796,7 +796,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     }
 
     .logomap {
-        padding-left: 25%;
+        padding-left: 30%;
         padding-right: 5%;
     }
 
@@ -819,10 +819,12 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-weight: bolder;
         height: 53px;
         padding-top: 8px;
+        font-size: 21px;
     }
 
     .parexplo {
         text-align: center;
+        padding-top: 20px;
     }
 
     .cartexplo {
@@ -866,10 +868,12 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-weight: bolder;
         height: 53px;
         padding-top: 8px;
+        font-size: 21px;
     }
 
     .parexplo {
         text-align: center;
+        padding-top: 20px;
     }
 
     .cartexplo {
@@ -913,10 +917,12 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-weight: bolder;
         height: 53px;
         padding-top: 8px;
+        font-size: 21px;
     }
 
     .parexplo {
         text-align: center;
+        padding-top: 20px;
     }
 
     .cartexplo {
@@ -1733,7 +1739,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .icon_valid {
         color: white;
-        rotate: 0deg;
         transition: all 0.9s ease-in-out, margin-right 0.2s; 
         line-height: 29px;
         margin-right: 43px;
@@ -2012,7 +2017,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .icon_valid {
         color: white;
-        rotate: 0deg;
         transition: all 0.9s ease-in-out, margin-right 0.2s; 
         line-height: 29px;
         margin-right: 43px;
@@ -2289,7 +2293,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .icon_valid {
         color: white;
-        rotate: 0deg;
         transition: all 0.9s ease-in-out, margin-right 0.2s; 
         line-height: 29px;
         margin-right: 43px;
