@@ -43,7 +43,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin: 0;
         width: 100%;
         max-width: 100%;
-        min-width: 350px;
     }
 }
 
@@ -576,7 +575,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         -webkit-animation: fadein 3s; /* Safari et Chrome */
         -o-animation: fadein 3s; /* Opera */
         z-index: 1;
-        min-width: 370px;
     }
 
     @keyframes fadein {
@@ -668,7 +666,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         object-fit: cover;
         width: 195px;
         padding-top: 7px;
-        padding-left: 39px
+        padding-left: 38px
     }
 
 }
@@ -707,7 +705,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         object-fit: cover;
         width: 195px;
         padding-top: 7px;
-        padding-left: 39px
+        padding-left: 38px
     }
 
 }
@@ -721,8 +719,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     }
     .entete {
         display: flex;
-        max-width: 100%;
-
+        width: 100%;
     }
 
     .back {
@@ -746,7 +743,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         object-fit: cover;
         width: 195px;
         padding-top: 7px;
-        padding-left: 39px
     }
 
 }
@@ -982,6 +978,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        width: 100%;
+        max-width: 400px;
     }
 
     .nombre-f {
@@ -1006,7 +1004,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #f6f6f6;
-        width: 311px;
+        width: 90%;
         margin-left: -7px;
     }
 
@@ -1018,7 +1016,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #f5edff;
-        width: 311px;
+        width: 90%;
         margin-left: -7px;
     }
 
@@ -1062,6 +1060,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        width: 100%;
+        max-width: 400px;
     }
 
     .nombre-f {
@@ -1086,7 +1086,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #f6f6f6;
-        width: 311px;
+        width: 90%;
         margin-left: -7px;
     }
 
@@ -1098,7 +1098,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #f5edff;
-        width: 311px;
+        width: 90%;
         margin-left: -7px;
     }
 
@@ -1142,6 +1142,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        width: 100%;
+        max-width: 400px;
     }
 
     .nombre-f {
@@ -1166,7 +1168,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #f6f6f6;
-        width: 311px;
+        width: 90%;
         margin-left: -7px;
     }
 
@@ -1178,7 +1180,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background-color: #f5edff;
-        width: 311px;
+        width: 90%;
         margin-left: -7px;
     }
 
@@ -1225,8 +1227,10 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 15px;
         margin-bottom: 4%;
-        width: 330px;
+        width: 100%;
+        max-width: 400px;
         margin-right: 25px;
+        position: relative;
     }
 
     .img-carte-r {
@@ -1263,23 +1267,22 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .coeur12 {
         display: flex;
-        width: 25px;
-        height: 25px;
-        margin-top: 25px;
+        width: 31px;
+        height: 31px;
+        margin-top: 19px;
         background-image: linear-gradient(180deg, #FF79DA 0%, #9356DC 100%);
         clip-path: url(#heart2);
     } 
 
     .heart1 {
-        width: 30px;
-        height: 25px;
+        width: 31px;
+        height: 29px;
         stroke: black;
         stroke-width: 11%;
         fill-opacity: 1;
         fill: white;
         opacity: 1;
         transition: opacity 1s;
-        padding-right: 4px;
     }
    
     .heart1:hover {
@@ -1291,13 +1294,15 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-size: 13px;
         background-color: #99E2D0;
         width: 76px;
-        padding-left: 12px;
         height: 37px;
         padding-top: 0;
         border-radius: 3px;
         position: absolute;
-        margin-left: 242px;
-        margin-top: 11px;
+        justify-content: center;
+        display: flex;
+        top: 20px;
+        right: 20px;
+        align-items: center;
     }
 
 }
@@ -1326,8 +1331,10 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 15px;
         margin-bottom: 4%;
-        width: 330px;
+        width: 100%;
+        max-width: 400px;
         margin-right: 25px;
+        position: relative;
     }
 
     .img-carte-r {
@@ -1364,23 +1371,22 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .coeur12 {
         display: flex;
-        width: 25px;
-        height: 25px;
-        margin-top: 25px;
+        width: 31px;
+        height: 31px;
+        margin-top: 19px;
         background-image: linear-gradient(180deg, #FF79DA 0%, #9356DC 100%);
         clip-path: url(#heart2);
     } 
 
     .heart1 {
-        width: 30px;
-        height: 25px;
+        width: 31px;
+        height: 29px;
         stroke: black;
         stroke-width: 11%;
         fill-opacity: 1;
         fill: white;
         opacity: 1;
         transition: opacity 1s;
-        padding-right: 4px;
     }
    
     .heart1:hover {
@@ -1392,13 +1398,15 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-size: 13px;
         background-color: #99E2D0;
         width: 76px;
-        padding-left: 12px;
         height: 37px;
         padding-top: 0;
         border-radius: 3px;
         position: absolute;
-        margin-left: 242px;
-        margin-top: 11px;
+        justify-content: center;
+        display: flex;
+        top: 20px;
+        right: 20px;
+        align-items: center;
     }
 
 }
@@ -1427,8 +1435,9 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         border-radius: 15px;
         margin-bottom: 4%;
-        width: 330px;
-        min-width: 330px;
+        width: 100%;
+        max-width: 400px;
+        position: relative;
     }
 
     .img-carte-r {
@@ -1465,23 +1474,22 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
 
     .coeur12 {
         display: flex;
-        width: 25px;
-        height: 25px;
-        margin-top: 25px;
+        width: 31px;
+        height: 31px;
+        margin-top: 19px;
         background-image: linear-gradient(180deg, #FF79DA 0%, #9356DC 100%);
         clip-path: url(#heart2);
     } 
 
     .heart1 {
-        width: 30px;
-        height: 25px;
+        width: 31px;
+        height: 29px;
         stroke: black;
         stroke-width: 11%;
         fill-opacity: 1;
         fill: white;
         opacity: 1;
         transition: opacity 1s;
-        padding-right: 5px;
     }
    
     .heart1:hover {
@@ -1493,13 +1501,15 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         font-size: 13px;
         background-color: #99E2D0;
         width: 76px;
-        padding-left: 12px;
         height: 37px;
         padding-top: 0;
         border-radius: 3px;
         position: absolute;
-        margin-left: 242px;
-        margin-top: 11px;
+        justify-content: center;
+        display: flex;
+        top: 20px;
+        right: 20px;
+        align-items: center;
     }
 
 }
@@ -1584,73 +1594,16 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .moment1 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 1s;
-        -moz-animation: fadein2 1s; /* Firefox */
-        -webkit-animation: fadein2 1s; /* Safari et Chrome */
-        -o-animation: fadein2 1s; /* Opera */
     }
 
     .moment2 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 2.5s;
-        -moz-animation: fadein2 2.5s; /* Firefox */
-        -webkit-animation: fadein2 2.5s; /* Safari et Chrome */
-        -o-animation: fadein2 2.5s; /* Opera */
     }
 
     .moment3 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 4s;
-        -moz-animation: fadein2 4s; /* Firefox */
-        -webkit-animation: fadein2 4s; /* Safari et Chrome */
-        -o-animation: fadein2 4s; /* Opera */
-    }
-
-    @keyframes fadein2 {
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-moz-keyframes fadein2 { /* sur Firefox */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-webkit-keyframes fadein2 { /* sur Safari et Chrome */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-o-keyframes fadein2 { /* sur Opera */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
     }
 
     .titre-page-section {
@@ -1708,7 +1661,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: -9px;
     }
 
-    .supra-carte-section {
+    .supra-carte-section1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1720,6 +1673,111 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         -webkit-animation: fadein 2s; /* Safari et Chrome */
         -o-animation: fadein 2s; /* Opera */
         position: relative;
+        animation: fadein2 1s;
+        -moz-animation: fadein2 1s; /* Firefox */
+        -webkit-animation: fadein2 1s; /* Safari et Chrome */
+        -o-animation: fadein2 1s; /* Opera */
+    }
+
+    .supra-carte-section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 1%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
+        animation: fadein2 2.5s;
+        -moz-animation: fadein2 2.5s; /* Firefox */
+        -webkit-animation: fadein2 2.5s; /* Safari et Chrome */
+        -o-animation: fadein2 2.5s; /* Opera */
+    }
+
+    .supra-carte-section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 1%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
+        animation: fadein2 4s;
+        -moz-animation: fadein2 4s; /* Firefox */
+        -webkit-animation: fadein2 4s; /* Safari et Chrome */
+        -o-animation: fadein2 4s; /* Opera */
+    }
+
+    @keyframes fadein2 {
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-moz-keyframes fadein2 { /* sur Firefox */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-webkit-keyframes fadein2 { /* sur Safari et Chrome */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-o-keyframes fadein2 { /* sur Opera */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
     }
 
     .valid {
@@ -1744,16 +1802,41 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: 13px;
     }
 
-    .supra-carte-section:hover .carte-section {
+    .supra-carte-section1:hover .carte-section {
         width: 80%;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
     }
-
-    .supra-carte-section:hover .valid {
+    .supra-carte-section1:hover .valid {
         width: 20%;
     }
-    .supra-carte-section:hover .icon_valid {
+    .supra-carte-section1:hover .icon_valid {
+        transform: rotate(360deg);
+        margin-right: 0px;
+    }
+
+    .supra-carte-section2:hover .carte-section {
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .supra-carte-section2:hover .valid {
+        width: 20%;
+    }
+    .supra-carte-section2:hover .icon_valid {
+        transform: rotate(360deg);
+        margin-right: 0px;
+    }
+    
+    .supra-carte-section3:hover .carte-section {
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .supra-carte-section3:hover .valid {
+        width: 20%;
+    }
+    .supra-carte-section3:hover .icon_valid {
         transform: rotate(360deg);
         margin-right: 0px;
     }
@@ -1763,7 +1846,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background: linear-gradient(356deg, #9356DC 0%, #FF79DA 85%);
         color: white;
-        width: 245px;
+        width: 200px;
         text-align: center;
         font-size: 17px;
         margin-top: 40px;
@@ -1776,7 +1859,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
         background: linear-gradient(356deg, #a366eC 0%, #FF89eA 85%);
         color: white;
-        width: 245px;
+        width: 200px;
         text-align: center;
         font-size: 17px;
         margin-top: 40px;
@@ -1852,7 +1935,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     }
     
 
-
     .cartes-page-r {
         width: 90%;
         margin-left: auto;
@@ -1862,73 +1944,16 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .moment1 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 1s;
-        -moz-animation: fadein2 1s; /* Firefox */
-        -webkit-animation: fadein2 1s; /* Safari et Chrome */
-        -o-animation: fadein2 1s; /* Opera */
     }
 
     .moment2 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 2.5s;
-        -moz-animation: fadein2 2.5s; /* Firefox */
-        -webkit-animation: fadein2 2.5s; /* Safari et Chrome */
-        -o-animation: fadein2 2.5s; /* Opera */
     }
 
     .moment3 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 4s;
-        -moz-animation: fadein2 4s; /* Firefox */
-        -webkit-animation: fadein2 4s; /* Safari et Chrome */
-        -o-animation: fadein2 4s; /* Opera */
-    }
-
-    @keyframes fadein2 {
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-moz-keyframes fadein2 { /* sur Firefox */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-webkit-keyframes fadein2 { /* sur Safari et Chrome */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-o-keyframes fadein2 { /* sur Opera */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
     }
 
     .titre-page-section {
@@ -1986,7 +2011,8 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: -9px;
     }
 
-    .supra-carte-section {
+
+    .supra-carte-section1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1998,6 +2024,111 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         -webkit-animation: fadein 2s; /* Safari et Chrome */
         -o-animation: fadein 2s; /* Opera */
         position: relative;
+        animation: fadein2 1s;
+        -moz-animation: fadein2 1s; /* Firefox */
+        -webkit-animation: fadein2 1s; /* Safari et Chrome */
+        -o-animation: fadein2 1s; /* Opera */
+    }
+
+    .supra-carte-section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 1%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
+        animation: fadein2 2.5s;
+        -moz-animation: fadein2 2.5s; /* Firefox */
+        -webkit-animation: fadein2 2.5s; /* Safari et Chrome */
+        -o-animation: fadein2 2.5s; /* Opera */
+    }
+
+    .supra-carte-section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 1%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
+        animation: fadein2 4s;
+        -moz-animation: fadein2 4s; /* Firefox */
+        -webkit-animation: fadein2 4s; /* Safari et Chrome */
+        -o-animation: fadein2 4s; /* Opera */
+    }
+
+    @keyframes fadein2 {
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-moz-keyframes fadein2 { /* sur Firefox */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-webkit-keyframes fadein2 { /* sur Safari et Chrome */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-o-keyframes fadein2 { /* sur Opera */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
     }
 
     .valid {
@@ -2022,26 +2153,52 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: 13px;
     }
 
-    .supra-carte-section:hover .carte-section {
+    .supra-carte-section1:hover .carte-section {
         width: 80%;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
     }
-
-    .supra-carte-section:hover .valid {
+    .supra-carte-section1:hover .valid {
         width: 20%;
     }
-    .supra-carte-section:hover .icon_valid {
+    .supra-carte-section1:hover .icon_valid {
         transform: rotate(360deg);
         margin-right: 0px;
     }
+
+    .supra-carte-section2:hover .carte-section {
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .supra-carte-section2:hover .valid {
+        width: 20%;
+    }
+    .supra-carte-section2:hover .icon_valid {
+        transform: rotate(360deg);
+        margin-right: 0px;
+    }
+    
+    .supra-carte-section3:hover .carte-section {
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .supra-carte-section3:hover .valid {
+        width: 20%;
+    }
+    .supra-carte-section3:hover .icon_valid {
+        transform: rotate(360deg);
+        margin-right: 0px;
+    }
+    
 
     .command {
         border-radius: 25px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background: linear-gradient(356deg, #9356DC 0%, #FF79DA 85%);
         color: white;
-        width: 245px;
+        width: 200px;
         text-align: center;
         font-size: 17px;
         margin-top: 40px;
@@ -2054,7 +2211,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
         background: linear-gradient(356deg, #a366eC 0%, #FF89eA 85%);
         color: white;
-        width: 245px;
+        width: 200px;
         text-align: center;
         font-size: 17px;
         margin-top: 40px;
@@ -2069,7 +2226,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         width: 100%;
         display: flex;
         flex-direction: column;
-        min-width: 370px;
     }
 
     .img-page-r {
@@ -2138,74 +2294,18 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
     .moment1 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 1s;
-        -moz-animation: fadein2 1s; /* Firefox */
-        -webkit-animation: fadein2 1s; /* Safari et Chrome */
-        -o-animation: fadein2 1s; /* Opera */
     }
 
     .moment2 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 2.5s;
-        -moz-animation: fadein2 2.5s; /* Firefox */
-        -webkit-animation: fadein2 2.5s; /* Safari et Chrome */
-        -o-animation: fadein2 2.5s; /* Opera */
     }
 
     .moment3 {
         display: flex;
         flex-direction: column;
-        animation: fadein2 4s;
-        -moz-animation: fadein2 4s; /* Firefox */
-        -webkit-animation: fadein2 4s; /* Safari et Chrome */
-        -o-animation: fadein2 4s; /* Opera */
     }
 
-    @keyframes fadein2 {
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-moz-keyframes fadein2 { /* sur Firefox */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-webkit-keyframes fadein2 { /* sur Safari et Chrome */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
-    @-o-keyframes fadein2 { /* sur Opera */
-        0% {
-            opacity:0;
-        }
-        90% {
-            opacity:0;
-        }
-        100% {
-            opacity:1;
-        }
-    }
 
     .titre-page-section {
         border-bottom: solid 2px #99E2D0;
@@ -2262,7 +2362,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: -9px;
     }
 
-    .supra-carte-section {
+    .supra-carte-section1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -2274,6 +2374,111 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         -webkit-animation: fadein 2s; /* Safari et Chrome */
         -o-animation: fadein 2s; /* Opera */
         position: relative;
+        animation: fadein2 1s;
+        -moz-animation: fadein2 1s; /* Firefox */
+        -webkit-animation: fadein2 1s; /* Safari et Chrome */
+        -o-animation: fadein2 1s; /* Opera */
+    }
+
+    .supra-carte-section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 1%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
+        animation: fadein2 2.5s;
+        -moz-animation: fadein2 2.5s; /* Firefox */
+        -webkit-animation: fadein2 2.5s; /* Safari et Chrome */
+        -o-animation: fadein2 2.5s; /* Opera */
+    }
+
+    .supra-carte-section3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        height: 82px;
+        margin-bottom: 1%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari et Chrome */
+        -o-animation: fadein 2s; /* Opera */
+        position: relative;
+        animation: fadein2 4s;
+        -moz-animation: fadein2 4s; /* Firefox */
+        -webkit-animation: fadein2 4s; /* Safari et Chrome */
+        -o-animation: fadein2 4s; /* Opera */
+    }
+
+    @keyframes fadein2 {
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-moz-keyframes fadein2 { /* sur Firefox */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-webkit-keyframes fadein2 { /* sur Safari et Chrome */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
+    }
+    @-o-keyframes fadein2 { /* sur Opera */
+        0% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        50% {
+            opacity:0;
+            padding-top: 20px;
+        }
+
+        100% {
+            opacity:1;
+            padding-top: 0;
+        }
     }
 
     .valid {
@@ -2298,16 +2503,41 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         margin-top: 13px;
     }
 
-    .supra-carte-section:hover .carte-section {
+    .supra-carte-section1:hover .carte-section {
         width: 80%;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
     }
-
-    .supra-carte-section:hover .valid {
+    .supra-carte-section1:hover .valid {
         width: 20%;
     }
-    .supra-carte-section:hover .icon_valid {
+    .supra-carte-section1:hover .icon_valid {
+        transform: rotate(360deg);
+        margin-right: 0px;
+    }
+
+    .supra-carte-section2:hover .carte-section {
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .supra-carte-section2:hover .valid {
+        width: 20%;
+    }
+    .supra-carte-section2:hover .icon_valid {
+        transform: rotate(360deg);
+        margin-right: 0px;
+    }
+    
+    .supra-carte-section3:hover .carte-section {
+        width: 80%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .supra-carte-section3:hover .valid {
+        width: 20%;
+    }
+    .supra-carte-section3:hover .icon_valid {
         transform: rotate(360deg);
         margin-right: 0px;
     }
@@ -2317,7 +2547,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         background: linear-gradient(356deg, #9356DC 0%, #FF79DA 85%);
         color: white;
-        width: 245px;
+        width: 200px;
         text-align: center;
         font-size: 17px;
         margin-top: 40px;
@@ -2330,7 +2560,7 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
         background: linear-gradient(356deg, #a366eC 0%, #FF89eA 85%);
         color: white;
-        width: 245px;
+        width: 200px;
         text-align: center;
         font-size: 17px;
         margin-top: 40px;
@@ -2467,7 +2697,6 @@ a,h1,h2,h3,h4,h5,ol,ul,p,.titres,.petit {
         padding-left: 10px;
         background-color: rgb(43, 40, 40);
         padding-bottom: 40px;
-        min-width: 370px;
     }
 
     .logo-footer {
